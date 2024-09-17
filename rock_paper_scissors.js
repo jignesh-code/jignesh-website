@@ -177,8 +177,8 @@ function PickResult(button) {
 
   document.querySelector(".js_result").innerHTML = result;
   document.querySelector(".js_moves").innerHTML = `You
-      <img src="imges/${button}.png" class="move-icon">
-      <img src="imges/${computerMove}.png" class="move-icon">
+      <img src="${button}.png" class="move-icon">
+      <img src="${computerMove}.png" class="move-icon">
   Computer`;
 }
 function UpdateScoreElement() {
